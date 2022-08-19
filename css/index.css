@@ -1,0 +1,98 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    width: 90vw;
+    margin-left: 7%;
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 54%;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background: none;
+}
+
+.nav-items{
+    display:flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+nav img{
+    width: 7%;
+}
+
+.signin-btn{
+    margin-right: 10%;
+    background: linear-gradient(to right,#965CF2,#FF8ADC);
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.left-section{
+    margin-top: 10%;
+    width: 50vw;
+}
+
+.left-section h1{
+    color: #3E4794;
+    font-size: 4rem;
+    
+}
+.left-section h4{
+color: #98999d;
+margin: 10% 0%;
+width: 17vw;
+line-height: 150%;
+font-size: .8rem;
+}
+
+.learn-more-btn{
+    margin-right: 10%;
+    background: linear-gradient(to right,#965CF2,#FF8ADC);
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 2rem;
+}
+
+.intro-section{
+    display: flex;
+    position: relative;
+}
+
+.intro-img{
+    width: 50vw;   
+}
+
+.imgs-div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.vector-img{
+    position: absolute;
+    top: 70%;
+    right: 45%;
+    width: 8%;
+}
+
+.vector-dot{
+    position: absolute;
+    top: 71%;
+    right: 46.5%;
+    /* width: 8%; */
+}
